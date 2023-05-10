@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 175, 225);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, footer{
+    background-color: rgb(102, 91, 218);
+    height: 80px;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 5px white;
+    float: left;
+    margin-right: 70px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+main{
+    width: 960px;
+    margin: 30px auto;
+}
+
+#hero{
+    width: 960px;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+#hero:hover{
+    border-radius: 0px;
+    border: 3px solid red;
+}
+
+#hero img{
+    width: 200px;
+    border-radius: 25px;
+    float: right;
+    margin-left: 25px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+.lower{
+    display: inline-block;
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.lower img{
+    width: 300px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
