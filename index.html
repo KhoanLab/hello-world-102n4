@@ -7,9 +7,11 @@
     <title>Document</title>
     <!-- external css -->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <!-- CODE IN HERE -->
+    
     <header>
         <!-- inline css -->
         <h1>The Cookie Store</h1>
@@ -21,6 +23,34 @@
             </ul>
         </nav>
     </header>
+    <h2>
+        <script>
+            alert("Hiya Class!!!");
+            console.log('I am in the console');
+            let userName = prompt('What is your name ?');
+            console.log('The user name is: ', userName);
+            document.write("Hellow and welcome to my page, ", userName);
+        </script>
+    </h2>
+    <p>
+        <script>
+            let response = prompt("Do you like cookies?");
+
+            console.log(response);
+            if (response == 'yes'){
+                alert("You're come to the right place!");
+                document.write("You're come to the right place!");
+            } else if (response == 'no') {
+                alert("What are you doing at a cookies shop website?");
+                document.write("What are you doing at a cookies shop website?")
+            } else {
+                alert("I'm not sure what that means...");
+                document.write("I'm not sure what you mean with that response...")
+            }
+        </script>
+    </p>
+   
+
     <main>
         <section id="hero">
             <img src="demo.jpg" alt="cookies" />
@@ -54,10 +84,11 @@
             </ul>
         </section>
     </main>
+    <script>
+        document.write("Bye y'all");
+    </script>
     <footer>
         &copy; American code lab 102n4
     </footer>
-
-
 </body>
 </html>
